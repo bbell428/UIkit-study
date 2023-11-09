@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA4F43E32AFC0110008A2232 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4F43E12AFC0110008A2232 /* image1.png */; };
+		EA4F43E42AFC0110008A2232 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4F43E22AFC0110008A2232 /* image2.png */; };
 		EA95E3AE2AFA1499008B75D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA95E3AD2AFA1499008B75D9 /* AppDelegate.swift */; };
 		EA95E3B02AFA1499008B75D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA95E3AF2AFA1499008B75D9 /* SceneDelegate.swift */; };
 		EA95E3B22AFA1499008B75D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA95E3B12AFA1499008B75D9 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA4F43E12AFC0110008A2232 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image1.png; path = ../../../../Desktop/image1.png; sourceTree = "<group>"; };
+		EA4F43E22AFC0110008A2232 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image2.png; path = ../../../../Desktop/image2.png; sourceTree = "<group>"; };
 		EA95E3AA2AFA1499008B75D9 /* 02MyBasicControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 02MyBasicControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA95E3AD2AFA1499008B75D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA95E3AF2AFA1499008B75D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		EA95E3AC2AFA1499008B75D9 /* 02MyBasicControl */ = {
 			isa = PBXGroup;
 			children = (
+				EA4F43E12AFC0110008A2232 /* image1.png */,
+				EA4F43E22AFC0110008A2232 /* image2.png */,
 				EA95E3AD2AFA1499008B75D9 /* AppDelegate.swift */,
 				EA95E3AF2AFA1499008B75D9 /* SceneDelegate.swift */,
 				EA95E3B12AFA1499008B75D9 /* ViewController.swift */,
@@ -103,7 +109,7 @@
 				};
 			};
 			buildConfigurationList = EA95E3A52AFA1499008B75D9 /* Build configuration list for PBXProject "02MyBasicControl" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -126,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA95E3BA2AFA149A008B75D9 /* LaunchScreen.storyboard in Resources */,
+				EA4F43E42AFC0110008A2232 /* image2.png in Resources */,
+				EA4F43E32AFC0110008A2232 /* image1.png in Resources */,
 				EA95E3B72AFA149A008B75D9 /* Assets.xcassets in Resources */,
 				EA95E3B52AFA1499008B75D9 /* Main.storyboard in Resources */,
 			);
