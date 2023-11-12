@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Hqr-wq-5HC">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
@@ -135,7 +135,7 @@
                                 </connections>
                             </switch>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="w1x-5J-hz1">
-                                <rect key="frame" x="76" y="577" width="240" height="32"/>
+                                <rect key="frame" x="76" y="550" width="240" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="First"/>
@@ -146,11 +146,35 @@
                                     <action selector="onSegment:" destination="Hqr-wq-5HC" eventType="valueChanged" id="AZs-Yw-kXP"/>
                                 </connections>
                             </segmentedControl>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="InH-WF-Bbw">
+                                <rect key="frame" x="40" y="624" width="311" height="1.6666666666666288"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="eYv-RA-zwg">
+                                <rect key="frame" x="38" y="719" width="315" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="onSlider:" destination="Hqr-wq-5HC" eventType="valueChanged" id="CSE-31-Sk2"/>
+                                </connections>
+                            </slider>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="CO0-DZ-zPO">
+                                <rect key="frame" x="149" y="786" width="94" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="onStepper:" destination="Hqr-wq-5HC" eventType="valueChanged" id="RfU-aZ-pxv"/>
+                                </connections>
+                            </stepper>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="sZD-z6-OjQ">
+                                <rect key="frame" x="185" y="660" width="20" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BTU-T3-5ZP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="indicatorView" destination="sZD-z6-OjQ" id="mrN-FN-GqE"/>
+                        <outlet property="progressView" destination="InH-WF-Bbw" id="0l4-fh-jDU"/>
                         <outlet property="tfData" destination="CAl-Tx-Iy9" id="dqD-gm-BJY"/>
                         <outlet property="tvData" destination="SpA-bo-hFm" id="ADX-Rh-Vx8"/>
                     </connections>
