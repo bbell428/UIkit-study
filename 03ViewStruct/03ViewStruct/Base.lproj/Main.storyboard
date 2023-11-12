@@ -30,7 +30,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Segue로 이동하기"/>
                                 <connections>
-                                    <segue destination="LNZ-mu-UsN" kind="show" id="P3k-YN-wVE"/>
+                                    <segue destination="LNZ-mu-UsN" kind="show" identifier="toSecondVC" id="P3k-YN-wVE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X61-2f-1g4">
