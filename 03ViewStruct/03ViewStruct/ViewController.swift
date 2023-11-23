@@ -1,6 +1,5 @@
 //  Created by 김종혁 on 11/12/23.
 //
-
 // 화면을 이동하는 방법 2가지
 // 1. 네비게이션 컨트롤러 이용(Navigation Controller) - 권장! , 수평이동
 //    (코드로 이동(Push, Pop), Segue 이동)
