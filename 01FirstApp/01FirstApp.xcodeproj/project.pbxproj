@@ -13,6 +13,7 @@
 		EA2D4C792AF9DF40007BE461 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2D4C772AF9DF40007BE461 /* Main.storyboard */; };
 		EA2D4C7B2AF9DF41007BE461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2D4C7A2AF9DF41007BE461 /* Assets.xcassets */; };
 		EA2D4C7E2AF9DF41007BE461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2D4C7C2AF9DF41007BE461 /* LaunchScreen.storyboard */; };
+		EA31F9622B053EF400B464AA /* Inter-VariableFont_slnt,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA31F9612B053EF400B464AA /* Inter-VariableFont_slnt,wght.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EA2D4C7A2AF9DF41007BE461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA2D4C7D2AF9DF41007BE461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA2D4C7F2AF9DF41007BE461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA31F9612B053EF400B464AA /* Inter-VariableFont_slnt,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-VariableFont_slnt,wght.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				EA2D4C7A2AF9DF41007BE461 /* Assets.xcassets */,
 				EA2D4C7C2AF9DF41007BE461 /* LaunchScreen.storyboard */,
 				EA2D4C7F2AF9DF41007BE461 /* Info.plist */,
+				EA31F9612B053EF400B464AA /* Inter-VariableFont_slnt,wght.ttf */,
 			);
 			path = 01FirstApp;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA31F9622B053EF400B464AA /* Inter-VariableFont_slnt,wght.ttf in Resources */,
 				EA2D4C7E2AF9DF41007BE461 /* LaunchScreen.storyboard in Resources */,
 				EA2D4C7B2AF9DF41007BE461 /* Assets.xcassets in Resources */,
 				EA2D4C792AF9DF40007BE461 /* Main.storyboard in Resources */,
